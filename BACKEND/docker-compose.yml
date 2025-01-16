@@ -1,0 +1,12 @@
+services:
+  mongo:
+    image: mongo
+    container_name: "todolist"
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ylli
+      MONGO_INITDB_ROOT_PASSWORD: 123
+    volumes:
+      - './dockervolume/mongodb:/data/db'
+    ports:
+      - 27017:27017

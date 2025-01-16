@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.themebutton{
+    width: 70px;
+    height: 70px;
+}
+.main-dark{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.themebutton-dark{
+    width: 70px;
+    height: 70px;
+}

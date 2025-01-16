@@ -1,0 +1,96 @@
+.task-container{
+    margin-top: 10px;
+    display: flex;
+    border: solid 3px antiquewhite;
+    height: 100px;
+    justify-content: space-between;
+}
+.task-container-dark{
+    margin-top: 10px;
+    display: flex;
+    border: solid 3px ;
+
+    height: 100px;
+    justify-content: space-between;
+}
+
+.taskupdate{
+    align-self: center;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.taskgoal{
+    align-self: center;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.taskupdate-dark{
+    align-self: center;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.taskgoal-dark{
+    align-self: center;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.taskgoal-completed-dark{
+    align-self: center;
+    margin-left: 20px;
+    font-size: 30px;
+    text-decoration: line-through;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buttons{
+    display: flex;
+    gap:0px;
+}
+
+.button-dark{
+    align-self: center;
+    color: hsl(0, 0%, 0%);
+    font-size: 30px;
+}
+.button-dark:hover{
+    align-self: center;
+    color: hsla(0, 0%, 0%, 0.553);
+    font-size: 30px;
+}
+.button-dark:active{
+    align-self: center;
+    color: hsla(0, 0%, 0%, 0.142);
+    font-size: 30px;
+}
+
+.button{
+    align-self: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+}
+.button:hover{
+    align-self: center;
+    color: hsla(0, 0%, 100%, 0.553);
+    font-size: 30px;
+}
+.button:active{
+    align-self: center;
+    color: hsla(0, 0%, 100%, 0.142);
+    font-size: 30px;
+}
+.taskgoal{
+    align-self: center;
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.taskgoal-completed{
+    align-self: center;
+    color:white;
+    margin-left: 20px;
+    font-size: 30px;
+    text-decoration: line-through white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

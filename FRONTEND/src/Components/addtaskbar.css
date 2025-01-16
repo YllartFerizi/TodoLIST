@@ -1,0 +1,52 @@
+.addtaskbar{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.addtaskbar input{
+    font-size: 32px;
+}
+.addtaskbar button{
+    border: none;
+    background-color: hsl(0, 27%, 41%);
+    color: aliceblue;
+    font-size: 32px;
+}
+.addtaskbar button:hover{
+    border: none;
+    background-color: hwb(0 19% 67%);
+    color: aliceblue;
+    font-size: 32px;
+}
+.addtaskbar button:active{
+    border: none;
+    background-color: hsl(0, 27%, 2%);
+    color: aliceblue;
+    font-size: 32px;
+}
+.addtaskbar-dark{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.addtaskbar-dark input{
+    font-size: 32px;
+}
+.addtaskbar-dark button{
+    border: none;
+    background-color: hsl(0, 27%, 41%);
+    color: aliceblue;
+    font-size: 32px;
+}
+.addtaskbar-dark button:hover{
+    border: none;
+    background-color: hwb(0 19% 67%);
+    color: aliceblue;
+    font-size: 32px;
+}
+.addtaskbar-dark button:active{
+    border: none;
+    background-color: hsl(0, 27%, 2%);
+    color: aliceblue;
+    font-size: 32px;
+}
